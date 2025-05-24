@@ -20,4 +20,7 @@ function agregarTarea() {
     document.getElementById("listaTareas").appendChild(li);
     input.value = "";
   }
-  
+  // Función de Luis para agregar tareas
+function agregarTarea(tarea) {
+  console.log("Tarea agregada:", tarea);
+}
