@@ -22,5 +22,5 @@ function agregarTarea() {
   }
   // Función de María para marcar tarea como completada
 function completarTarea(id) {
-  console.log("Tarea completada:", id);
+  console.log("Tareas completadas:", id);
 }
