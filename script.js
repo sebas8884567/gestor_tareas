@@ -20,4 +20,7 @@ function agregarTarea() {
     document.getElementById("listaTareas").appendChild(li);
     input.value = "";
   }
-  
+  // Función de María para marcar tarea como completada
+function completarTarea(id) {
+  console.log("Tarea completada:", id);
+}
